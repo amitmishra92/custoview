@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CUSTOVIEW</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-func.js"></script>
+<!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div id="shell">
+  <div id="header">
+    <h1 id="logo"><a href="#">CUSTOVIEW</a></h1>
+    <div class="top-bar">
+      <div class="links"> <a href="signIn.html">SIGN IN</a> <a href="signUp.html">SIGN UP</a></div>
+      <div class="cl">&nbsp;</div>
+      <div id="search">
+        <form action="#" method="post">
+          <label for="search-string">IM LOOKING FOR</label>
+          <div class="fields">
+            <input type="text" value="..." id="search-string" class="field" />
+            <input type="submit" value="" class="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="navigation">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      
+    </ul>
+	<ul>
+      <li><a href="newReview.html">WANA SHARE SOMETHING?</a></li>
+    </ul>
+    <div class="cl">&nbsp;</div>
+  </div>
+   <div id="main">
+    <div id="content">
+       <form class="new-review-form">
+    <h1 class="sign-up-title">Your Opinion Please...</h1> <br />
+	
+	<p id = "h1">  What do you wana review?  <br />
+	<input type="radio" name="genre" value="product" checked="checked" /> Product
+	<input type="radio" name="genre" value="service" /> Service <br /> <br />
+	</p>
+	
+    <select name="city" class="new-review">
+			<option value="default">Select your City</option>
+			<option value="delhi">Delhi</option>
+			<option value="mumbai">Mumbai</option>
+			<option value="bangalore">Bangalore</option>
+</select>
+	<select name="category" class="new-review">
+			<option value="default">Select Category</option>
+			<option value="delhi">Education</option>
+			<option value="mumbai">Beauty & Health Care</option>
+			<option value="bangalore">Electronics</option>
+			<option value="bangalore">Food & Travel</option>
+</select>
+	
+	<input type="text" class="new-review" placeholder="Name" autofocus> <br /> <br/>
+   <textarea name - "review" cols - "400" rows - "400" class="text-area" placeholder="Your opinion">What's your opinion? </textarea> <br />  <br />
+   <select name="rating" class="new-review">
+			<option value="default">Rate It</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+</select>
+<select name="recommendation" class="new-review">
+			<option value="default">Do you recommend it?</option>
+			<option value="yes">Yes</option>
+			<option value="No">No</option>
+</select>
+    <input type="submit" value="Submit Opinion!" class="sign-up-button">
+  </form> 
+   
+   
+      </div>
+	  <div id="banners">
+      <div class="banner"> <a href="#"><img src="css/images/small-banner.gif" alt="" /></a> </div>
+      <div class="banner"> <a href="#"><img src="css/images/big-banner.gif" alt="" /></a> </div>
+    </div>
+	 <div class="cl">&nbsp;</div>
+  </div>
+      </div>
+	 
+  <div id="footer">
+    <p class="lf">Copyright &copy; 2016 <a href="http://www.custoview.com">www.custoview.com</a> - All Rights Reserved</p>
+    <div style="clear:both;"></div>
+  </div>
+  </div>
+<!-- END PAGE SOURCE -->
+</body>
+</html>
